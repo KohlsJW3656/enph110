@@ -9,7 +9,11 @@ main {
 }
 
 body {
-  background-color: #ccc;
+  background-image: url("../images/fires/turkey.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h2,
@@ -28,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 24pt;
-  color: red;
+  color: yellow;
   padding-bottom: 20px;
 }
 
@@ -50,7 +54,7 @@ p {
 .info {
   background-color: white;
   margin-bottom: 50px;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 @font-face {
