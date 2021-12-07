@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+
+main {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body {
+  background-color: #ccc;
+}
+
+h2,
+h3,
+h4,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 30pt;
+  color: rgb(255, 43, 51);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+h2 {
+  font-size: 24pt;
+  color: red;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 20pt;
+}
+
+h4 {
+  font-size: 18pt;
+}
+
+p {
+  font-size: 16pt;
+  margin: 0;
+}
+
+.info {
+  background-color: white;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+@font-face {
+  font-family: "Harlow Solid Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Harlow Solid Italic"), url("fonts/HARLOWSI_1.woff") format("woff");
+}
+
+header {
+  background-color: black;
+  z-index: 1;
+}
+
+header img {
+  width: 100px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  box-shadow: 0 0 10px 3px red;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+nav ul li {
+  float: left;
+  border-right: 1px solid #ccc;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16pt;
+  text-decoration: none;
+  color: rgb(255, 43, 51);
+}
+
+#navAbout {
+  border: none;
+}
+
+nav li:last-child {
+  border-right: none;
+  float: right;
+}
+
+nav ul li:hover {
+  background-color: rgba(61, 61, 61, 0.548);
+}
+
+.active {
+  color: black;
+  background-color: rgb(255, 43, 51);
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    position: static;
+  }
+
+  nav li:last-child,
+  #navAbout {
+    border-right: 1px solid #ccc;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.fullheight {
+  height: 100vh;
+}

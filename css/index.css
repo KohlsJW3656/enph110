@@ -1,0 +1,53 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  background-image: url("../images/fires/turkey.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#logo {
+  width: 200px;
+  animation: fadeIn ease 3s;
+}
+
+h1 {
+  font-size: 45pt;
+  animation: fadeIn ease 3s;
+  font-family: sans-serif;
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #logo {
+    width: 100px;
+  }
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+}
+
+#link {
+  text-decoration: none;
+  color: yellow;
+  font-size: 45pt;
+}
+
+#target {
+  padding-top: 50px;
+}

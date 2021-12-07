@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Wildfire Effects</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/rwd.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/about.css" type="text/css" />
+    <script src="js/main.js"></script>
+  </head>
+
+  <body onresize="navResize();" onload="navResize();">
+    <header class="row">
+      <div class="col-xs-3 col-sm-2 col-lg-1">
+        <img
+          src="images/logo.png"
+          alt="Platinum Cherry Productions Logo Image"
+        />
+      </div>
+      <div class="col-xs-9 col-sm-10 col-lg-11">
+        <h1>Wildfire Effects</h1>
+      </div>
+    </header>
+
+    <nav class="row">
+      <ul>
+        <li class="navResize"><a href="index.html">Home</a></li>
+        <li class="navResize">
+          <a class="active" href="mission.html">Our Mission</a>
+        </li>
+        <li class="navResize">
+          <a href="economic.html">Economic</a>
+        </li>
+        <li class="navResize">
+          <a href="environmental.html">Environmental</a>
+        </li>
+        <li class="navResize" id="navAbout">
+          <a href="human.html">Human Health</a>
+        </li>
+        <li class="navResize"><a href="conclusion.html">Conclusion</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Our Mission</h2>
+
+      <div class="row info">
+        <h3 class="col-xs-12">Our Goal</h3>
+        <p class="col-xs-12">
+          Our goal is to spread awareness on the economic, enviornmental, and
+          human health related effects from wildfires.
+        </p>
+      </div>
+
+      <div class="row info">
+        <h3 class="col-xs-12">Why is this topic important?</h3>
+        <div class="col-xs-12 col-md-6">
+          <p>
+            This topic is important because clean air is important for healthy
+            human development. Poor air quality also negatively affects people
+            of all ages when doing things outside. Because of this, we should
+            find ways to improve the quality of our air.
+          </p>
+        </div>
+        <img
+          id="boardgamePhoto"
+          class="col-xs-12 col-md-6"
+          alt="A grassland on fire"
+          src="images/fires/important.jpg"
+        />
+      </div>
+    </main>
+  </body>
+</html>
